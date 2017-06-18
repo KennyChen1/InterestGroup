@@ -1,6 +1,8 @@
 To run the program, navigate to the project directory containing the source code. When in the directory, compile all the .java files using the command “javac *.java”, this will produce .class files. Start a new terminal window from the same directory and start up the server using the command “java TestServer”. Now, switch back to the other terminal window and start up the client program by running the command “java TestC”.
 
-Commands You are required to implement a command line interface similar to the Linux command line for the client program. Once the client program is started, say, by you, the following commands should be supported:
+test or example files may already exist
+
+A command line interface similar to the Linux command line for the client program. Once the client program is started, say, by you, the following commands should be supported:
 
 login – this command takes one argument, your user ID. It is used by the application to determine which discussion groups you have subscribed to, and for each subscribed group, which posts you have read.
 
